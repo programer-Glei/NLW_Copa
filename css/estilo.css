@@ -61,4 +61,36 @@ body * {
   border-radius: 6px;
   color: #f7dd43;
 }
+
+#app .card h2 span {
+  color: #E1E1E6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#app .card ul {
+  display: -ms-grid;
+  display: grid;
+  gap: 24px;
+  width: 270px;
+}
+
+#app .card ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .card ul li strong {
+  font-size: 36px;
+  line-height: 125%;
+  color: #E1E1E6;
+  font-weight: 900;
+}
 /*# sourceMappingURL=estilo.css.map */

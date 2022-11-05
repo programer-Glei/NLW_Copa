@@ -47,6 +47,31 @@ body *{
             border: 1px solid #746615;
             border-radius: 6px;
             color: #f7dd43;
+
+            span{
+                color: #E1E1E6;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+        }
+
+        ul{
+            display: grid;
+            gap: 24px;
+            width: 270px;
+
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                strong {
+                    font-size: 36px;
+                    line-height: 125%;
+                    color: #E1E1E6;
+                    font-weight: 900;
+                }
+            }
         }
     }
 }
