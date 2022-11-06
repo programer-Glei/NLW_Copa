@@ -25,6 +25,7 @@ body *{
 
     header {
         margin-bottom: 63px;
+        text-align: center;
     }
 
     .card {
@@ -65,6 +66,11 @@ body *{
                 align-items: center;
                 justify-content: space-between;
 
+                & + li{
+                    padding-top: 24px;
+                    border-top: 1px solid #323238;
+                }
+
                 strong {
                     font-size: 36px;
                     line-height: 125%;
@@ -73,5 +79,14 @@ body *{
                 }
             }
         }
+    }
+}
+
+
+@media(min-width: 700px){
+    #cards{
+        max-width: 670px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }

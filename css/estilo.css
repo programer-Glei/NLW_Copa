@@ -29,6 +29,7 @@ body * {
 
 #app header {
   margin-bottom: 63px;
+  text-align: center;
 }
 
 #app .card {
@@ -87,10 +88,26 @@ body * {
           justify-content: space-between;
 }
 
+#app .card ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
+
 #app .card ul li strong {
   font-size: 36px;
   line-height: 125%;
   color: #E1E1E6;
   font-weight: 900;
+}
+
+@media (min-width: 700px) {
+  #cards {
+    max-width: 670px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
