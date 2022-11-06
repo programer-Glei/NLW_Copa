@@ -28,6 +28,11 @@ body *{
         text-align: center;
     }
 
+    #cards{
+        display: grid;
+        gap: 32px;
+    }
+
     .card {
         padding: 32px 23px;
         text-align: center;
@@ -84,9 +89,12 @@ body *{
 
 
 @media(min-width: 700px){
-    #cards{
-        max-width: 670px;
-        display: flex;
-        flex-wrap: wrap;
+
+    #app{
+        #cards{
+            max-width: 670px;
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
 }

@@ -32,6 +32,12 @@ body * {
   text-align: center;
 }
 
+#app #cards {
+  display: -ms-grid;
+  display: grid;
+  gap: 32px;
+}
+
 #app .card {
   padding: 32px 23px;
   text-align: center;
@@ -101,7 +107,7 @@ body * {
 }
 
 @media (min-width: 700px) {
-  #cards {
+  #app #cards {
     max-width: 670px;
     display: -webkit-box;
     display: -ms-flexbox;
